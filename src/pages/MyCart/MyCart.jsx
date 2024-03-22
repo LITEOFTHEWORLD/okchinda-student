@@ -10,13 +10,13 @@ import add from "../../assets/add.png";
 const MyCart = () => {
   return (
     <section className="MyCart">
-      <section className="MyCart_first">
+      <div className="MyCart_first">
         <div className="MyCart_inner">
           <img src={arrowleft} alt="arrowleft_img" />
           <h3>My Cart</h3>
         </div>
-      </section>
-      <section className="MyCart_second">
+      </div>
+      <div className="MyCart_second">
         <div className="MyCart_second_inner1">
           <img src={egusi} alt="egusi_img" />
 
@@ -47,7 +47,7 @@ const MyCart = () => {
             <span>Submit Order</span>
           </button>
         </div>
-      </section>
+      </div>
     </section>
   );
 };

@@ -1,5 +1,5 @@
-.MyCart_first {
-  max-width: 500px;
+.MyCart {
+  max-width: 900px;
   margin: 0 auto;
   background-color: whitesmoke;
   position: relative;
@@ -7,7 +7,8 @@
 }
 .MyCart_inner {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
   gap: 49px;
 }
 .MyCart_inner img {
@@ -22,14 +23,14 @@
   color: #2a2a2a;
   margin-top: 5px;
   margin-right: 150px;
-}
-.MyCart_second {
   text-align: center;
 }
 
 .MyCart_second_inner1 {
   display: flex;
   justify-content: center;
+  gap: 20px;
+  align-items: center;
   gap: 30px;
   margin-top: 70px;
   padding: 10px;
