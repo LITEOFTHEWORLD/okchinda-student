@@ -7,17 +7,18 @@ import bottle from "../../assets/bottle.png";
 import home from "../../assets/home.png";
 import event from "../../assets/event.png";
 import icons_order from "../../assets/icons_order.png";
+import Menu from "../../components/Menu/Menu";
 
 const MyOrder = () => {
   return (
     <section className="MyOrder">
-      <section className="MyOrder_first">
+      <div className="MyOrder_first">
         <div className="MyOrder_inner">
           <img src={arrowleft} alt="arrowleft_img" />
           <h3>My Order</h3>
         </div>
-      </section>
-      <section className="MyOrder_second">
+      </div>
+      <div className="MyOrder_second">
         <div className="MyOrder_second_inner1">
           <img src={egusi} alt="egusi_img" />
 
@@ -34,25 +35,8 @@ const MyOrder = () => {
           <img src={bottle} alt="bottle_img" />
           <p>Bottle water</p>
         </div>
-      </section>
-
-      <div className="footer_container">
-        <button className="home_btn">
-          <img src={home} alt="home_img" />
-          <p>Home</p>
-        </button>
-
-        <button className="home_btn">
-          <img src={event} alt="event_img" />
-          <p>Event</p>
-        </button>
-
-        <button className="home_btn">
-          <img src={icons_order} alt="order_img" />
-          <p> Order</p>
-        </button>
-        <span></span>
       </div>
+      <Menu />
     </section>
   );
 };
